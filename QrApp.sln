@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrApp", "QrApp\QrApp.csproj", "{436D8E36-A1AE-4720-9946-87757DAB1011}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QrApp Setup", "QrApp Setup\QrApp Setup.vdproj", "{F3890B24-76BE-4439-AEBA-0A648DAA2118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrUpdater", "QrUpdater\QrUpdater.csproj", "{04299776-82BD-4988-81EA-D905F0430A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{436D8E36-A1AE-4720-9946-87757DAB1011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436D8E36-A1AE-4720-9946-87757DAB1011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436D8E36-A1AE-4720-9946-87757DAB1011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436D8E36-A1AE-4720-9946-87757DAB1011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3890B24-76BE-4439-AEBA-0A648DAA2118}.Debug|Any CPU.ActiveCfg = Debug
+		{F3890B24-76BE-4439-AEBA-0A648DAA2118}.Release|Any CPU.ActiveCfg = Release
+		{04299776-82BD-4988-81EA-D905F0430A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04299776-82BD-4988-81EA-D905F0430A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04299776-82BD-4988-81EA-D905F0430A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04299776-82BD-4988-81EA-D905F0430A32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3823B186-12AE-465D-BA48-92C17B538C3E}
+	EndGlobalSection
+EndGlobal
