@@ -209,12 +209,22 @@ namespace QrApp
         private void tabPage1_Enter(object sender, EventArgs e)
         {
             this.materialTabControl1.SelectedTab = this.tabPage3;
-            System.Diagnostics.Process.Start("https://discord.gg/z4VT5QY");
-            
-
-
-
+            try
+            {
+                var psi = new ProcessStartInfo
+                {
+                    FileName = "https://discord.gg/z4VT5QY",
+                    UseShellExecute = true
+                };
+                Process.Start(psi);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to open URL: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.materialTabControl1.SelectedTab = this.tabPage3;
+            }
         }
+
 
         private void tabPage3_Enter(object sender, EventArgs e)
         {
